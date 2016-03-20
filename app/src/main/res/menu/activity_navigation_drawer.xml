@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_takenotes"
+            android:icon="@drawable/notes_icon"
+            android:title="Take Notes" />
+        <item
+            android:id="@+id/nav_drawnotes"
+            android:icon="@drawable/draw_icon"
+            android:title="Draw" />
+        <item
+            android:id="@+id/nav_askusers"
+            android:icon="@drawable/question_icon"
+            android:title="Have Doubt?" />
+
+    </group>
+
+
+
+</menu>

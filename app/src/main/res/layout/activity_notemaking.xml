@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        android:fontFamily="Luminari"
+        android:background="@drawable/note_bg"
+        android:hint="Type here"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/ico_mic"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp" />
+
+
+
+
+</RelativeLayout>
